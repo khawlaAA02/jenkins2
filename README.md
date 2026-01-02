@@ -4,25 +4,25 @@
 
 Mettre en place une chaîne CI/CD complète basée sur :
 
--GitHub (gestion du code)
+- GitHub (gestion du code)
 
--Jenkins (pipeline CI)
+- Jenkins (pipeline CI)
 
--SonarQube (analyse qualité & sécurité)
+- SonarQube (analyse qualité & sécurité)
 
--Ngrok (exposition Jenkins vers Internet)
+- Ngrok (exposition Jenkins vers Internet)
 
--GitHub Webhook (déclenchement automatique)
+- GitHub Webhook (déclenchement automatique)
 
 Le pipeline doit :
 
 -Cloner le dépôt
 
--Compiler les microservices
+- Compiler les microservices
 
--Lancer les analyses SonarQube pour car et client
+- Lancer les analyses SonarQube pour car et client
 
--Exécuter les builds en parallèle
+- Exécuter les builds en parallèle
 
 ## Architecture
 
